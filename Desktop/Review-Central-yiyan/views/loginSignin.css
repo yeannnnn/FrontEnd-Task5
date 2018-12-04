@@ -1,0 +1,29 @@
+
+body {
+
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    padding:19px ;
+    margin: 0;
+}
+.login{
+    padding: 50px;
+    margin: auto;
+    width: 149px;
+}
+
+.submit{
+    padding: 6px 6px 6px 3px;
+margin:10px 10px 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+p{
+    margin:20px auto;
+    width: 80%;
+    text-align: center;
+}

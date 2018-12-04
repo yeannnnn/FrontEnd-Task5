@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Login Register</title>
+
+</head>
+<body>
+<div class="profile">
+
+</div>
+<div class="container">
+    <div class="page-header text-center">
+        <h1>Main feed</h1>
+        <ul class="topbar">
+        <li><a href="/profile">profile</a></li>
+        <li><a href="/logout">logout</a></li>
+        </ul>
+    </div>
+    <div class="flip-box">
+        <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <h2></h2>
+            </div>
+            <div class="flip-box-back">
+                </form>
+                <h1>upload Image</h1>
+                <form action="/upload" method="post" enctype="multipart/form-data" id="mediaform">
+                    <input type="text" name="product" placeholder="product">
+                    <br>
+                    <input type="number" name="price" placeholder="Price">
+                    <br>
+                    <input type="text" name="year" placeholder="Year">
+                    <br>
+                    <input type="range" min="1" max="5" name="star" placeholder="Stars">
+                    <br>
+                    <input type="text" name="model" placeholder="Model">
+                    <br>
+                    <input onChange="check()" type="file" name="mediafile" accept="image/*" id="pic">
+                    <br>
+                    <button type="submit" id="ButtonSend" disabled>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/mainfeed.js"></script>
+
+</body>
+</html>
